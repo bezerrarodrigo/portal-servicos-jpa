@@ -250,7 +250,7 @@ const allServices = [
 ]
 
 const uniqueServices = Array.from(
-  new Map(allServices.map((service) => [service.text, service])).values()
+  new Map(allServices.map((service) => [service.text, service])).values(),
 )
 
 export const filteredServices = uniqueServices
