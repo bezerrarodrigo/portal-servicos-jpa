@@ -42,20 +42,20 @@ export function Header() {
                 Carta de Serviços
               </a>
               <Separator className="mt-2" />
-              <a
-                href="https://portal.teresina.pi.gov.br/portal-web/paginas/inicial/"
-                target="_blank"
-                rel="noreferrer"
-              >
+              <a href="#" target="_blank" rel="noreferrer">
                 Usuário
               </a>
               <Separator className="mt-2" />
-              <a href="https://pmt.pi.gov.br/" target="_blank" rel="noreferrer">
+              <a
+                href="https://www.joaopessoa.pb.gov.br/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Prefeitura
               </a>
               <Separator className="mt-2" />
               <a
-                href="http://legis.teresina.pi.gov.br/"
+                href="https://www.joaopessoa.pb.gov.br/pc/consultaLegislacao.xhtml?tipo=1"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -70,27 +70,27 @@ export function Header() {
         </Sheet>
         <nav className="hidden gap-8 lg:flex">
           <a href="/" target="_blank">
-            Home
+            Inicial
           </a>
           <Separator style={{ height: 24 }} orientation="vertical" />
           <a href="#" target="_blank">
             Carta de Serviços
           </a>
           <Separator style={{ height: 24 }} orientation="vertical" />
-          <a
-            href="https://portal.teresina.pi.gov.br/portal-web/paginas/inicial/"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href="#" target="_blank" rel="noreferrer">
             Usuário
           </a>
           <Separator style={{ height: 24 }} orientation="vertical" />
-          <a href="https://pmt.pi.gov.br/" target="_blank" rel="noreferrer">
+          <a
+            href="https://www.joaopessoa.pb.gov.br/"
+            target="_blank"
+            rel="noreferrer"
+          >
             Prefeitura
           </a>
           <Separator style={{ height: 24 }} orientation="vertical" />
           <a
-            href="http://legis.teresina.pi.gov.br/"
+            href="https://www.joaopessoa.pb.gov.br/pc/consultaLegislacao.xhtml?tipo=1"
             target="_blank"
             rel="noreferrer"
           >
