@@ -24,7 +24,7 @@ export function HeroSearch() {
             Portal de Serviços
           </h1>
           <Input
-            className="bg-white w-full md:w-1/2"
+            className="bg-white w-full md:w-1/2 max-w-[600px]"
             placeholder="Busca rápida por serviço..."
             onFocus={() => setOpen(true)}
           />
