@@ -1,6 +1,6 @@
-'use client'
+"use client";
 
-import { useState } from 'react'
+import { useState } from "react";
 
 import {
   CommandDialog,
@@ -9,16 +9,16 @@ import {
   CommandInput,
   CommandItem,
   CommandList,
-} from '@/components/ui/command'
-import { Input } from '@/components/ui/input'
-import { filteredServices } from '@/lib/allDataSearch'
+} from "@/components/ui/command";
+import { Input } from "@/components/ui/input";
+import { filteredServices } from "@/lib/allDataSearch";
 
 export function HeroSearch() {
-  const [open, setOpen] = useState(false)
+  const [open, setOpen] = useState(false);
 
   return (
     <>
-      <div className="flex m-0 bg-blue-700">
+      <div className="flex m-0 bg-red-400">
         <div className="flex w-full flex-col items-center gap-4 p-8">
           <h1 className="text-2xl md:text-4xl font-bold text-white">
             Portal de Serviços
@@ -40,7 +40,7 @@ export function HeroSearch() {
                         {service.text}
                       </a>
                     </CommandItem>
-                  )
+                  );
                 })}
               </CommandGroup>
             </CommandList>
@@ -86,10 +86,10 @@ export function HeroSearch() {
           </div>
         </div>
       </div>
-      <div className="flex h-14 items-center justify-center bg-blue-300">
-        <h3 className="font-bold text-blue-900 lg:text-lg text-sm">
+      <div className="flex h-14 items-center justify-center bg-red-300">
+        <h3 className="font-bold text-red-700 lg:text-lg text-sm">
           <a
-            href="https://portal.teresina.pi.gov.br/portal-web/paginas/inicial/"
+            href="https://serem-hml.joaopessoa.pb.gov.br/portal-web/paginas/inicial/"
             target="_blank"
           >
             Acesse o Portal de Parcelamento e Negociação
@@ -97,5 +97,5 @@ export function HeroSearch() {
         </h3>
       </div>
     </>
-  )
+  );
 }
