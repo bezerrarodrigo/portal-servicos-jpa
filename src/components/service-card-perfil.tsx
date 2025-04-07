@@ -24,8 +24,8 @@ export function ServiceCardPerfil({
 }: ServiceCardPerfilProps) {
   return (
     <Card className="rounded-xs">
-      <CardHeader className="border-b pb-2 border-blue-900">
-        <CardTitle className="text-blue-900">{title}</CardTitle>
+      <CardHeader className="border-b pb-2 border-red-500">
+        <CardTitle className="text-red-500">{title}</CardTitle>
         <CardDescription>{subtitle}</CardDescription>
       </CardHeader>
       <CardContent>
