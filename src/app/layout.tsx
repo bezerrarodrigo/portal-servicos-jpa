@@ -10,15 +10,13 @@ export const metadata: Metadata = {
   title: 'Portal de Serviços | João Pessoa',
   description: 'Prefeitura de João Pessoa',
   icons: {
-    icon: "/favicon.png",
+    icon: '/favicon.png',
   },
-};
 };
 
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode;
   children: React.ReactNode;
 }>) {
   return (
@@ -42,6 +40,5 @@ export default function RootLayout({
         </footer>
       </body>
     </html>
-  );
   );
 }

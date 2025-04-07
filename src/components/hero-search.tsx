@@ -1,12 +1,6 @@
-<<<<<<< HEAD
 'use client';
 
 import { useState } from 'react';
-=======
-"use client";
-
-import { useState } from "react";
->>>>>>> 6575ba1a9d6ac8d6ba7e47cddc80066d570e920e
 
 import {
   CommandDialog,
@@ -15,15 +9,9 @@ import {
   CommandInput,
   CommandItem,
   CommandList,
-<<<<<<< HEAD
 } from '@/components/ui/command';
 import { Input } from '@/components/ui/input';
 import { filteredServices } from '@/lib/allDataSearch';
-=======
-} from "@/components/ui/command";
-import { Input } from "@/components/ui/input";
-import { filteredServices } from "@/lib/allDataSearch";
->>>>>>> 6575ba1a9d6ac8d6ba7e47cddc80066d570e920e
 
 export function HeroSearch() {
   const [open, setOpen] = useState(false);
