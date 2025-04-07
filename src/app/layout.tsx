@@ -31,13 +31,6 @@ export default function RootLayout({
             Desenvolvido por DSF - Inteligência Tributária Municipal.
           </p>
         </footer>
-        <footer className="flex items-center p-8 h-10 bg-gray-700 justify-center">
-          <p className="text-xs text-center md:text-sm text-gray-400">
-            © {new Date().getFullYear()} Prefeitura de João Pessoa.Todos os
-            direitos reservados. <br />
-            Desenvolvido por DSF-Inteligência Tributária Municipal.
-          </p>
-        </footer>
       </body>
     </html>
   )
