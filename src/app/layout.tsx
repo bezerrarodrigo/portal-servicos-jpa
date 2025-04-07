@@ -1,10 +1,10 @@
-import './globals.css';
+import './globals.css'
 
-import type { Metadata } from 'next';
-import React from 'react';
+import type { Metadata } from 'next'
+import React from 'react'
 
-import { Header } from '@/components/header';
-import { inter } from '@/lib/fonts';
+import { Header } from '@/components/header'
+import { inter } from '@/lib/fonts'
 
 export const metadata: Metadata = {
   title: 'Portal de Serviços | João Pessoa',
@@ -12,12 +12,12 @@ export const metadata: Metadata = {
   icons: {
     icon: '/favicon.png',
   },
-};
+}
 
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode;
+  children: React.ReactNode
 }>) {
   return (
     <html lang="pt">
@@ -40,5 +40,5 @@ export default function RootLayout({
         </footer>
       </body>
     </html>
-  );
+  )
 }
