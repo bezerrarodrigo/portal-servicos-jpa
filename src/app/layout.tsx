@@ -1,23 +1,23 @@
-import "./globals.css";
+import './globals.css'
 
-import type { Metadata } from "next";
-import React from "react";
+import type { Metadata } from 'next'
+import React from 'react'
 
-import { Header } from "@/components/header";
-import { inter } from "@/lib/fonts";
+import { Header } from '@/components/header'
+import { inter } from '@/lib/fonts'
 
 export const metadata: Metadata = {
-  title: "Portal de Serviços | João Pessoa",
-  description: "Prefeitura de João Pessoa",
+  title: 'Portal de Serviços | João Pessoa',
+  description: 'Prefeitura de João Pessoa',
   icons: {
-    icon: "/favicon.png",
+    icon: '/favicon.png',
   },
-};
+}
 
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode;
+  children: React.ReactNode
 }>) {
   return (
     <html lang="pt">
@@ -31,7 +31,14 @@ export default function RootLayout({
             Desenvolvido por DSF - Inteligência Tributária Municipal.
           </p>
         </footer>
+        <footer className="flex items-center p-8 h-10 bg-gray-700 justify-center">
+          <p className="text-xs text-center md:text-sm text-gray-400">
+            © {new Date().getFullYear()} Prefeitura de João Pessoa.Todos os
+            direitos reservados. <br />
+            Desenvolvido por DSF-Inteligência Tributária Municipal.
+          </p>
+        </footer>
       </body>
     </html>
-  );
+  )
 }
