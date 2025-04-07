@@ -35,7 +35,7 @@ export function HeroSearch() {
               <CommandGroup heading="Resultados">
                 {filteredServices.map((service) => {
                   return (
-                    <CommandItem key={service.id}>
+                    <CommandItem key={service.text}>
                       <a href={service.href} target="_blank">
                         {service.text}
                       </a>
