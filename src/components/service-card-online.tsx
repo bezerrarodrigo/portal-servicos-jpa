@@ -1,18 +1,9 @@
 import {
-  BrickWall,
-  FileBadgeIcon,
-  FileDigitIcon,
-  Globe,
-  House,
   HousePlus,
   Landmark,
   Mail,
-  MonitorCheck,
-  MonitorUpIcon,
   NotepadText,
   NotepadTextDashedIcon,
-  Trees,
-  Truck,
 } from 'lucide-react'
 
 import { ServiceCard } from '@/components/service-card'
