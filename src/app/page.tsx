@@ -1,9 +1,18 @@
+<<<<<<< HEAD
 import Image from 'next/image';
 
 import { HeroSearch } from '@/components/hero-search';
 import { ServiceCardOnline } from '@/components/service-card-online';
 import { ServiceCardPerfil } from '@/components/service-card-perfil';
 import { ServiceCardTributos } from '@/components/service-card-tributo';
+=======
+import Image from "next/image";
+
+import { HeroSearch } from "@/components/hero-search";
+import { ServiceCardOnline } from "@/components/service-card-online";
+import { ServiceCardPerfil } from "@/components/service-card-perfil";
+import { ServiceCardTributos } from "@/components/service-card-tributo";
+>>>>>>> 6575ba1a9d6ac8d6ba7e47cddc80066d570e920e
 import {
   cidadaoItems,
   empresaItens,
@@ -12,7 +21,11 @@ import {
   issItems,
   itbiItems,
   taxaItems,
+<<<<<<< HEAD
 } from '@/lib/data';
+=======
+} from "@/lib/data";
+>>>>>>> 6575ba1a9d6ac8d6ba7e47cddc80066d570e920e
 
 export default function Home() {
   return (
