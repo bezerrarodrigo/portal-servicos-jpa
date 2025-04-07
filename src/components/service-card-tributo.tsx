@@ -25,8 +25,8 @@ export function ServiceCardTributos({
 }: ServiceCardTributosProps) {
   return (
     <Card className="rounded-xs h-auto">
-      <CardHeader className="border-b pb-2 border-emerald-500">
-        <CardTitle className="text-emerald-500">{title}</CardTitle>
+      <CardHeader className="border-b pb-2 border-red-500">
+        <CardTitle className="text-red-500">{title}</CardTitle>
         <CardDescription>{subtitle}</CardDescription>
       </CardHeader>
       <CardContent>

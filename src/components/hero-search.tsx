@@ -35,7 +35,7 @@ export function HeroSearch() {
               <CommandGroup heading="Resultados">
                 {filteredServices.map((service) => {
                   return (
-                    <CommandItem key={service.id}>
+                    <CommandItem key={service.text}>
                       <a href={service.href} target="_blank">
                         {service.text}
                       </a>
@@ -49,38 +49,24 @@ export function HeroSearch() {
             <ul className="flex flex-col gap-2 md:gap-1">
               <a
                 className="hover:underline font-light text-sm text-center md:text-left"
-                href="https://portal.teresina.pi.gov.br/dsf_the_portal/inicial.do?evento=montaMenu&acronym=IMO_CNDIPTU"
+                href="https://serem-hml.joaopessoa.pb.gov.br/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EMITIRCERTIDAOFINANCEIRAPES"
                 target="_blank"
               >
-                Certidão Negativa de IPTU
+                Certidão Financeira Pessoa
               </a>
               <a
                 className="hover:underline font-light text-sm text-center md:text-left"
-                href="https://portal.teresina.pi.gov.br/dsf_the_portal/inicial.do?evento=montaMenu&acronym=IMO_CPCENIPTU"
-                target="_blank"
-              >
-                Certidão Positiva com Efeito de Negativa IPTU
-              </a>
-              <a
-                className="hover:underline font-light text-sm text-center md:text-left"
-                href="https://portal.teresina.pi.gov.br/dsf_the_portal/inicial.do?evento=montaMenu&acronym=PES_CCNDA"
-                target="_blank"
-              >
-                Certidão Conjunta Negativa e da Dívida Ativa
-              </a>
-              <a
-                className="hover:underline font-light text-sm text-center md:text-left"
-                href="https://portal.teresina.pi.gov.br/dsf_the_portal/inicial.do?evento=montaMenu&acronym=EXTRATOEMPRESA"
+                href="https://serem-hml.joaopessoa.pb.gov.br/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EXTRATOEMPRESA"
                 target="_blank"
               >
                 Emissão de guia ISS/Taxas
               </a>
               <a
                 className="hover:underline font-light text-sm text-center md:text-left"
-                href="https://portal.teresina.pi.gov.br/dsf_the_portal/inicial.do?evento=montaMenu&acronym=EXTRATOIMOVEL"
+                href="https://serem-hml.joaopessoa.pb.gov.br/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EXTRATOIMOVEL"
                 target="_blank"
               >
-                Emissão de Guia IPTU/COSIP/TCRD
+                Emissão de guia IPTU/TCR
               </a>
             </ul>
           </div>
