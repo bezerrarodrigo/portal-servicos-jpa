@@ -5,7 +5,7 @@ const allServices = [
   },
   {
     text: 'Emitir Guia ISS Autônomo',
-    href: 'https://serem-hml.joaopessoa.pb.gov.br/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EMITIRGUIAISSAUTONOMO',
+    href: 'https://serem-hml.joaopessoa.pb.gov.br/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EXTRATOEMPRESA',
   },
   {
     text: 'Nota Fiscal de Serviços',
@@ -36,12 +36,20 @@ const allServices = [
     href: 'https://serem-hml.joaopessoa.pb.gov.br/portal-web/paginas/inicial/',
   },
   {
-    text: 'Legislação',
+    text: 'Legislação (Lei Complementar)',
     href: 'https://www.joaopessoa.pb.gov.br/pc/consultaLegislacao.xhtml?tipo=1',
   },
   {
+    text: 'Legislação (Decreto)',
+    href: 'https://www.joaopessoa.pb.gov.br/pc/consultaLegislacao.xhtml?tipo=2',
+  },
+  {
     text: 'Certidão Financeira Imóvel',
-    href: 'https://serem-hml.joaopessoa.pb.gov.br/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=IMO_CNDIPTU',
+    href: 'https://serem-hml.joaopessoa.pb.gov.br/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EMITIRCERTIDAOFINANCEIRAIMO',
+  },
+  {
+    text: 'Certidão Financeira Imóvel',
+    href: 'https://serem-hml.joaopessoa.pb.gov.br/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EMITIRCERTIDAOFINANCEIRAIMO',
   },
   {
     text: 'Emitir Guia IPTU/TCR-Taxa de Lixo',
@@ -60,12 +68,12 @@ const allServices = [
     href: 'https://serem-hml.joaopessoa.pb.gov.br/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=VALIDARCERTIDAO',
   },
   {
-    text: 'Portal de Parcelamento e Negociação',
-    href: 'https://serem-hml.joaopessoa.pb.gov.br/portal-web/paginas/inicial/',
+    text: 'Legislação (Lei Complementar)',
+    href: 'https://www.joaopessoa.pb.gov.br/pc/consultaLegislacao.xhtml?tipo=1',
   },
   {
-    text: 'Legislação',
-    href: 'https://www.joaopessoa.pb.gov.br/pc/consultaLegislacao.xhtml?tipo=1',
+    text: 'Legislação (Decreto)',
+    href: 'https://www.joaopessoa.pb.gov.br/pc/consultaLegislacao.xhtml?tipo=2',
   },
   {
     text: 'Emitir Guia ITBI-e',
@@ -80,16 +88,20 @@ const allServices = [
     href: 'https://serem-hml.joaopessoa.pb.gov.br/itbi/paginas/certidao/certidaoPortalData.jsf?faces-redirect=true',
   },
   {
-    text: 'Reemitir Certidão',
-    href: 'https://serem-hml.joaopessoa.pb.gov.br/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=REEMITIRCERTIDAO',
+    text: 'Sistema ITBI-e',
+    href: 'https://serem-hml.joaopessoa.pb.gov.br/itbi/paginas/portal/index.html',
   },
   {
-    text: 'Validar Certidão',
-    href: 'https://serem-hml.joaopessoa.pb.gov.br/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=VALIDARCERTIDAO',
+    text: 'Certidão Negativa de Transferência Imobiliária',
+    href: 'https://serem-hml.joaopessoa.pb.gov.br/itbi/paginas/certidao/certidaoPortalData.jsf?faces-redirect=true',
   },
   {
-    text: 'Legislação',
+    text: 'Legislação (Lei Complementar)',
     href: 'https://www.joaopessoa.pb.gov.br/pc/consultaLegislacao.xhtml?tipo=1',
+  },
+  {
+    text: 'Legislação (Decreto)',
+    href: 'https://www.joaopessoa.pb.gov.br/pc/consultaLegislacao.xhtml?tipo=2',
   },
   {
     text: 'Emitir Guia TLFF',
@@ -97,27 +109,27 @@ const allServices = [
   },
   {
     text: 'Emitir Guia TLFF Autonômo',
-    href: 'https://serem-hml.joaopessoa.pb.gov.br/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EMITIRGUIAISSAUTONOMO',
+    href: 'https://serem-hml.joaopessoa.pb.gov.br/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EXTRATOEMPRESA',
   },
   {
-    text: 'Certidão Financeira Pessoa',
-    href: 'https://serem-hml.joaopessoa.pb.gov.br/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EMITIRCERTIDAOFINANCEIRAPES',
+    text: 'Legislação (Decreto)',
+    href: 'https://www.joaopessoa.pb.gov.br/pc/consultaLegislacao.xhtml?tipo=2',
   },
   {
-    text: 'Reemitir Certidão',
-    href: 'https://serem-hml.joaopessoa.pb.gov.br/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=REEMITIRCERTIDAO',
+    text: 'Emitir Guia TLFF',
+    href: 'https://serem-hml.joaopessoa.pb.gov.br/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EXTRATOEMPRESA',
   },
   {
-    text: 'Portal de Parcelamento e Negociação',
-    href: 'https://serem-hml.joaopessoa.pb.gov.br/portal-web/paginas/inicial/',
+    text: 'Emitir Guia TLFF Autonômo',
+    href: 'https://serem-hml.joaopessoa.pb.gov.br/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EXTRATOEMPRESA',
   },
   {
-    text: 'Reemitir Certidão/Declaração',
-    href: 'https://portal.teresina.pi.gov.br/dsf_the_portal/inicial.do?evento=montaMenu&acronym=REEMITIRCERTIDAO',
-  },
-  {
-    text: 'Legislação',
+    text: 'Legislação (Lei Complementar)',
     href: 'https://www.joaopessoa.pb.gov.br/pc/consultaLegislacao.xhtml?tipo=1',
+  },
+  {
+    text: 'Legislação (Decreto)',
+    href: 'https://www.joaopessoa.pb.gov.br/pc/consultaLegislacao.xhtml?tipo=2',
   },
   {
     text: 'Certidão Financeira Imóvel',
@@ -156,16 +168,24 @@ const allServices = [
     href: 'https://serem-hml.joaopessoa.pb.gov.br/portal-web/paginas/inicial/',
   },
   {
+    text: 'Reemitir Certidão',
+    href: 'https://serem-hml.joaopessoa.pb.gov.br/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=REEMITIRCERTIDAO',
+  },
+  {
+    text: 'Emitir Guia ISS/TLFF Autonômo',
+    href: 'https://serem-hml.joaopessoa.pb.gov.br/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EXTRATOEMPRESA',
+  },
+  {
+    text: 'Portal de Parcelamento e Negociação',
+    href: 'https://serem-hml.joaopessoa.pb.gov.br/portal-web/paginas/inicial/',
+  },
+  {
     text: 'Emitir Guia ISS/TLFF',
     href: 'https://serem-hml.joaopessoa.pb.gov.br/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EXTRATOEMPRESA',
   },
   {
     text: 'Emitir Guia ISS/TLFF Autonômo',
-    href: 'https://serem-hml.joaopessoa.pb.gov.br/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EMITIRGUIAISSAUTONOMO',
-  },
-  {
-    text: 'Nota Fiscal de Serviços',
-    href: 'https://serem-hml.joaopessoa.pb.gov.br/notafiscal/paginas/portal',
+    href: 'https://serem-hml.joaopessoa.pb.gov.br/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EXTRATOEMPRESA',
   },
   {
     text: 'Nota Fiscal de Serviços Avulsa',
@@ -174,26 +194,6 @@ const allServices = [
   {
     text: 'Certidão Financeira Pessoa',
     href: 'https://serem-hml.joaopessoa.pb.gov.br/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EMITIRCERTIDAOFINANCEIRAPES',
-  },
-  {
-    text: 'Certidão Conjunta Positiva com Efeito de Negativa de Débitos Municipais e da Dívida Ativa do Município',
-    href: 'https://portal.teresina.pi.gov.br/dsf_the_portal/inicial.do?evento=montaMenu&acronym=PES_CCNDA',
-  },
-  {
-    text: 'Reemitir Certidão',
-    href: 'https://serem-hml.joaopessoa.pb.gov.br/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=REEMITIRCERTIDAO',
-  },
-  {
-    text: 'Validar Certidão',
-    href: 'https://serem-hml.joaopessoa.pb.gov.br/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=VALIDARCERTIDAO',
-  },
-  {
-    text: 'Certidão de Baixa',
-    href: 'https://portal.teresina.pi.gov.br/dsf_the_portal/inicial.do?evento=montaMenu&acronym=MOB_CB',
-  },
-  {
-    text: 'Certidão de Estimativa',
-    href: 'https://serem-hml.joaopessoa.pb.gov.br/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=MOB_CB',
   },
   {
     text: 'DESIF',
@@ -221,11 +221,11 @@ const allServices = [
   },
   {
     text: 'Emitir Guia ITBI-e',
-    href: 'https://serem-hml.joaopessoa.pb.gov.br/itbi/paginas/guiaitbi/emiteGuiaPortalList.',
+    href: 'https://serem-hml.joaopessoa.pb.gov.br/itbi/paginas/guiaitbi/emiteGuiaPortalList.jsf',
   },
   {
     text: 'Emitir Guia SIAT',
-    href: 'hml.joaopessoa.pb.gov.br/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EMITIRITBI  ',
+    href: 'https://serem-hml.joaopessoa.pb.gov.br/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EMITIRITBI',
   },
   {
     text: 'Sistema ITBI-e',
@@ -252,5 +252,7 @@ const allServices = [
 const uniqueServices = Array.from(
   new Map(allServices.map((service) => [service.text, service])).values(),
 )
+
+new Map(allServices.map((service) => [service.text, service])).values()
 
 export const filteredServices = uniqueServices
