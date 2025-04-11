@@ -247,11 +247,11 @@ const allServices = [
     text: 'Cadastro como Tomador da Nota',
     href: 'https://serem-hml.joaopessoa.pb.gov.br/notafiscal/paginas/portal',
   },
-];
+]
 
 const uniqueServices = Array.from(
   new Map(allServices.map((service) => [service.text, service])).values()
-);
-new Map(allServices.map((service) => [service.text, service])).values();
+)
+new Map(allServices.map((service) => [service.text, service])).values()
 
-export const filteredServices = uniqueServices;
+export const filteredServices = uniqueServices

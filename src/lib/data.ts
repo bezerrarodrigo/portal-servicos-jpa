@@ -43,7 +43,7 @@ const issItems = [
     text: 'Legislação (Decreto)',
     href: 'https://www.joaopessoa.pb.gov.br/pc/consultaLegislacao.xhtml?tipo=2',
   },
-];
+]
 
 const iptuItems = [
   {
@@ -78,7 +78,7 @@ const iptuItems = [
     text: 'Legislação (Decreto)',
     href: 'https://www.joaopessoa.pb.gov.br/pc/consultaLegislacao.xhtml?tipo=2',
   },
-];
+]
 
 const itbiItems = [
   {
@@ -109,7 +109,7 @@ const itbiItems = [
     text: 'Legislação (Decreto)',
     href: 'https://www.joaopessoa.pb.gov.br/pc/consultaLegislacao.xhtml?tipo=2',
   },
-];
+]
 
 const taxaItems = [
   {
@@ -140,7 +140,7 @@ const taxaItems = [
     text: 'Legislação (Decreto)',
     href: 'https://www.joaopessoa.pb.gov.br/pc/consultaLegislacao.xhtml?tipo=2',
   },
-];
+]
 
 const imovelItens = [
   {
@@ -179,7 +179,7 @@ const imovelItens = [
     text: 'Portal de Parcelamento e Negociação',
     href: 'https://serem-hml.joaopessoa.pb.gov.br/portal-web/paginas/inicial/',
   },
-];
+]
 
 const empresaItens = [
   {
@@ -218,7 +218,7 @@ const empresaItens = [
     text: 'Domicílio Tributário Eletrônico  ',
     href: 'https://serem-hml.joaopessoa.pb.gov.br/dte/paginas/portal',
   },
-];
+]
 
 const cidadaoItems = [
   {
@@ -265,7 +265,7 @@ const cidadaoItems = [
     text: 'Cadastro como Tomador da Nota',
     href: 'https://serem-hml.joaopessoa.pb.gov.br/notafiscal/paginas/portal',
   },
-];
+]
 
 export {
   issItems,
@@ -275,4 +275,4 @@ export {
   imovelItens,
   empresaItens,
   cidadaoItems,
-};
+}
