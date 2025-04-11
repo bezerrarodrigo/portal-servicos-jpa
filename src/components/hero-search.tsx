@@ -15,7 +15,6 @@ import { filteredServices } from '@/lib/allDataSearch';
 
 export function HeroSearch() {
   const [open, setOpen] = useState(false);
-  const [open, setOpen] = useState(false);
 
   return (
     <>
@@ -41,7 +40,6 @@ export function HeroSearch() {
                         {service.text}
                       </a>
                     </CommandItem>
-                  );
                   );
                 })}
               </CommandGroup>
@@ -113,6 +111,5 @@ export function HeroSearch() {
         </h3>
       </div>
     </>
-  );
   );
 }
