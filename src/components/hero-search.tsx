@@ -15,6 +15,7 @@ import { filteredServices } from '@/lib/allDataSearch';
 
 export function HeroSearch() {
   const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(false);
 
   return (
     <>
@@ -41,6 +42,7 @@ export function HeroSearch() {
                       </a>
                     </CommandItem>
                   );
+                  );
                 })}
               </CommandGroup>
             </CommandList>
@@ -53,6 +55,20 @@ export function HeroSearch() {
                 target="_blank"
               >
                 Certidão Financeira Pessoa
+              </a>
+              <a
+                className="hover:underline font-light text-sm text-center md:text-left"
+                href="https://serem-hml.joaopessoa.pb.gov.br/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EMITIRCERTIDAOFINANCEIRAIMO"
+                target="_blank"
+              >
+                Certidão Financeira Imóvel
+              </a>
+              <a
+                className="hover:underline font-light text-sm text-center md:text-left"
+                href="https://serem-hml.joaopessoa.pb.gov.br/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=CERTIDAOBAIXAINSCRICAOMUNICIPAL"
+                target="_blank"
+              >
+                Certidão Baixa da Inscrição Municipal
               </a>
               <a
                 className="hover:underline font-light text-sm text-center md:text-left"
@@ -97,5 +113,6 @@ export function HeroSearch() {
         </h3>
       </div>
     </>
+  );
   );
 }
