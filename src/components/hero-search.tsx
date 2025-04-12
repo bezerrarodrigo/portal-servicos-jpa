@@ -70,20 +70,6 @@ export function HeroSearch() {
               </a>
               <a
                 className="hover:underline font-light text-sm text-center md:text-left"
-                href="https://serem-hml.joaopessoa.pb.gov.br/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EMITIRCERTIDAOFINANCEIRAIMO"
-                target="_blank"
-              >
-                Certidão Financeira Imóvel
-              </a>
-              <a
-                className="hover:underline font-light text-sm text-center md:text-left"
-                href="https://serem-hml.joaopessoa.pb.gov.br/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=CERTIDAOBAIXAINSCRICAOMUNICIPAL"
-                target="_blank"
-              >
-                Certidão Baixa da Inscrição Municipal
-              </a>
-              <a
-                className="hover:underline font-light text-sm text-center md:text-left"
                 href="https://serem-hml.joaopessoa.pb.gov.br/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EXTRATOEMPRESA"
                 target="_blank"
               >

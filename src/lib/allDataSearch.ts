@@ -29,7 +29,7 @@ const allServices = [
   },
   {
     text: 'Certidão de Baixa',
-    href: 'https://serem-hml.joaopessoa.pb.gov.br/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=MOB_CB',
+    href: 'https://serem-hml.joaopessoa.pb.gov.br/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=CERTIDAOBAIXAINSCRICAOMUNICIPAL',
   },
   {
     text: 'Portal de Parcelamento e Negociação',
@@ -42,10 +42,6 @@ const allServices = [
   {
     text: 'Legislação (Decreto)',
     href: 'https://www.joaopessoa.pb.gov.br/pc/consultaLegislacao.xhtml?tipo=2',
-  },
-  {
-    text: 'Certidão Financeira Imóvel',
-    href: 'https://serem-hml.joaopessoa.pb.gov.br/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EMITIRCERTIDAOFINANCEIRAIMO',
   },
   {
     text: 'Certidão Financeira Imóvel',
@@ -131,10 +127,7 @@ const allServices = [
     text: 'Legislação (Decreto)',
     href: 'https://www.joaopessoa.pb.gov.br/pc/consultaLegislacao.xhtml?tipo=2',
   },
-  {
-    text: 'Certidão Financeira Imóvel',
-    href: 'https://serem-hml.joaopessoa.pb.gov.br/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EMITIRCERTIDAOFINANCEIRAIMO',
-  },
+
   {
     text: 'Emitir Guia IPTU/TCR-Taxa de Lixo',
     href: 'https://serem-hml.joaopessoa.pb.gov.br/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EXTRATOIMOVEL',
@@ -206,10 +199,6 @@ const allServices = [
   {
     text: 'Certidão Financeira Pessoa',
     href: 'https://serem-hml.joaopessoa.pb.gov.br/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EMITIRCERTIDAOFINANCEIRAPES',
-  },
-  {
-    text: 'Certidão Financeira Imóvel',
-    href: 'https://serem-hml.joaopessoa.pb.gov.br/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EMITIRCERTIDAOFINANCEIRAIMO',
   },
   {
     text: 'Emitir Guia IPTU/TCR-Taxa de Lixo',
