@@ -14,6 +14,8 @@ export const metadata: Metadata = {
   },
 }
 
+const currentYear = new Date().getFullYear()
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -26,8 +28,8 @@ export default function RootLayout({
         {children}
         <footer className="flex items-center p-10  h-10 bg-gray-700 justify-center">
           <p className="text-xs text-center md:text-sm text-gray-400">
-            © {new Date().getFullYear()} Prefeitura de João Pessoa.Todos os
-            direitos reservados. <br />
+            © {currentYear} Prefeitura de João Pessoa.Todos os direitos
+            reservados. <br />
             Desenvolvido por DSF - Inteligência Tributária Municipal.
           </p>
         </footer>
