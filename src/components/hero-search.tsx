@@ -49,35 +49,35 @@ export function HeroSearch() {
             <ul className="flex flex-col gap-2 md:gap-1">
               <a
                 className="hover:underline font-light text-sm text-center md:text-left"
-                href="https://serem-hml.joaopessoa.pb.gov.br/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EMITIRCERTIDAOFINANCEIRAPES"
+                href={`${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EMITIRCERTIDAOFINANCEIRAPES`}
                 target="_blank"
               >
                 Certidão Financeira Pessoa
               </a>
               <a
                 className="hover:underline font-light text-sm text-center md:text-left"
-                href="https://serem-hml.joaopessoa.pb.gov.br/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EMITIRCERTIDAOFINANCEIRAIMO"
+                href={`${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EMITIRCERTIDAOFINANCEIRAIMO`}
                 target="_blank"
               >
                 Certidão Financeira Imóvel
               </a>
               <a
                 className="hover:underline font-light text-sm text-center md:text-left"
-                href="https://serem-hml.joaopessoa.pb.gov.br/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=CERTIDAOBAIXAINSCRICAOMUNICIPAL"
+                href={`${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=CERTIDAOBAIXAINSCRICAOMUNICIPAL`}
                 target="_blank"
               >
                 Certidão Baixa da Inscrição Municipal
               </a>
               <a
                 className="hover:underline font-light text-sm text-center md:text-left"
-                href="https://serem-hml.joaopessoa.pb.gov.br/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EXTRATOEMPRESA"
+                href={`${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EXTRATOEMPRESA`}
                 target="_blank"
               >
                 Emissão de guia ISS/Taxas
               </a>
               <a
                 className="hover:underline font-light text-sm text-center md:text-left"
-                href="https://serem-hml.joaopessoa.pb.gov.br/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EXTRATOIMOVEL"
+                href={`${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EXTRATOIMOVEL`}
                 target="_blank"
               >
                 Emissão de guia IPTU/TCR
@@ -89,7 +89,7 @@ export function HeroSearch() {
       <div className="flex h-14 items-center justify-center bg-red-300">
         <h3 className="font-bold text-red-700 lg:text-lg text-sm">
           <a
-            href="https://serem-hml.joaopessoa.pb.gov.br/portal-web/paginas/inicial/"
+            href={`${process.env.NEXT_PUBLIC_BASE_URL}/portal-web/paginas/inicial/`}
             target="_blank"
           >
             Acesse o Portal de Parcelamento e Negociação
