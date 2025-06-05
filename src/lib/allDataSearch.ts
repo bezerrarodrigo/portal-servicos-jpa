@@ -100,11 +100,11 @@ const allServices = [
     href: 'https://www.joaopessoa.pb.gov.br/pc/consultaLegislacao.xhtml?tipo=2',
   },
   {
-    text: 'Emitir Guia TLFF',
+    text: 'Emitir Guia TFLF',
     href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EXTRATOEMPRESA`,
   },
   {
-    text: 'Emitir Guia TLFF Autonômo',
+    text: 'Emitir Guia TFLF Autonômo',
     href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EXTRATOEMPRESA`,
   },
   {
@@ -164,11 +164,11 @@ const allServices = [
     href: `${process.env.NEXT_PUBLIC_BASE_URL}/portal-web/paginas/inicial/`,
   },
   {
-    text: 'Emitir Guia ISS/TLFF',
+    text: 'Emitir Guia ISS/TFLF',
     href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EXTRATOEMPRESA`,
   },
   {
-    text: 'Emitir Guia ISS/TLFF Autonômo',
+    text: 'Emitir Guia ISS/TFLF Autonômo',
     href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EXTRATOEMPRESA`,
   },
   {
@@ -246,6 +246,14 @@ const allServices = [
   {
     text: 'Cadastro como Tomador da Nota',
     href: `${process.env.NEXT_PUBLIC_BASE_URL}/notafiscal/paginas/portal`,
+  },
+  {
+    text: 'Impressão e Autenticidade de Notas Fiscais Avulsas até 31/05/2025',
+    href: 'https://www.joaopessoa.pb.gov.br/pc',
+  },
+  {
+    text: 'Impressão e Autenticidade de ITBIs até 31/05/2025 ',
+    href: 'https://www.joaopessoa.pb.gov.br/pc/',
   },
 ]
 
