@@ -1,9 +1,25 @@
-import Image from 'next/image'
-
-import { HeroSearch } from '@/components/hero-search'
 import { ServiceCardOnline } from '@/components/service-card-online'
+import Image from 'next/image'
+import { HeroSearch } from '@/components/hero-search'
+
 import { ServiceCardPerfil } from '@/components/service-card-perfil'
 import { ServiceCardTributos } from '@/components/service-card-tributo'
+import { Button } from '@/components/ui/button'
+import {
+  Card,
+  CardContent,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from '@/components/ui/card'
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from '@/components/ui/dialog'
 import {
   cidadaoItems,
   empresaItens,
@@ -13,6 +29,8 @@ import {
   itbiItems,
   taxaItems,
 } from '@/lib/data'
+
+import { Video } from 'lucide-react'
 
 export default function Home() {
   return (
@@ -28,6 +46,127 @@ export default function Home() {
             />
           </div>
           <HeroSearch />
+          <div className="px-4">
+            <h1 className="text-center text-2xl font-bold text-gray-800">
+              Vídeos explicativos
+            </h1>
+            <p className="text-center text-gray-600">
+              Assista aos vídeos abaixo para aprender como utilizar os serviços
+              online da Prefeitura.
+            </p>
+            <div className="flex flex-wrap justify-center gap-4 mt-6">
+              <Card className="w-full sm:w-80 border border-red-300">
+                <CardHeader>
+                  <CardTitle>Emissão de boletos</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground text-sm">
+                    Saiba como realizar acordos e imprimir parcelas de forma
+                    rápida e fácil.
+                  </p>
+                </CardContent>
+                <CardFooter>
+                  <Dialog>
+                    <DialogTrigger asChild>
+                      <Button className="cursor-pointer w-full" variant="ghost">
+                        Ver vídeo
+                        <Video color="red" />
+                      </Button>
+                    </DialogTrigger>
+                    <DialogContent className="sm:max-w-2xl">
+                      <DialogHeader>
+                        <DialogTitle>Emissão de boleto</DialogTitle>
+                        <DialogDescription>
+                          Saiba como realizar acordos e imprimir parcelas de
+                          forma rápida e fácil.
+                        </DialogDescription>
+                      </DialogHeader>
+                      <div>
+                        <div>
+                          <video
+                            width="620"
+                            height="500"
+                            controls
+                            preload="none"
+                            autoPlay={true}
+                          >
+                            <source
+                              src="/videos/emissaoBoleto.mp4"
+                              type="video/mp4"
+                            />
+                            Seu navegador não suporta o elemento de vídeo.
+                          </video>
+                        </div>
+                      </div>
+                    </DialogContent>
+                  </Dialog>
+                </CardFooter>
+              </Card>
+              <Card className="w-full sm:w-80 border border-red-300">
+                <CardHeader>
+                  <CardTitle>Emissão Nota Fiscal Avulsa</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground text-sm">
+                    Cadastre-se para emitir notas fiscais avulsas de forma
+                    simples e rápida.
+                  </p>
+                </CardContent>
+                <CardFooter>
+                  <Dialog>
+                    <DialogTrigger asChild>
+                      <Button className="cursor-pointer w-full" variant="ghost">
+                        Ver vídeo
+                        <Video color="red" />
+                      </Button>
+                    </DialogTrigger>
+                    <DialogContent className="sm:max-w-2xl">
+                      <DialogHeader>
+                        <DialogTitle>Cadastro Nota Avulsa</DialogTitle>
+                        <DialogDescription>
+                          Aprenda a se cadastrar para emitir notas fiscais
+                          avulsas de forma simples e rápida.
+                        </DialogDescription>
+                      </DialogHeader>
+                      <div>
+                        <div>
+                          <video
+                            width="620"
+                            height="500"
+                            controls
+                            preload="none"
+                            autoPlay={true}
+                          >
+                            <source
+                              src="/videos/cadastroNA.mp4"
+                              type="video/mp4"
+                            />
+                            Seu navegador não suporta o elemento de vídeo.
+                          </video>
+                        </div>
+                      </div>
+                    </DialogContent>
+                  </Dialog>
+                </CardFooter>
+              </Card>
+            </div>
+
+            {/*  <div className="flex gap-4 mt-4 w-1/2 mx-auto">
+              <div>
+                <video width="480" height="360" controls preload="none">
+                  <source src="/videos/emissaoBoleto.mp4" type="video/mp4" />
+                  Seu navegador não suporta o elemento de vídeo.
+                </video>
+                <p>Saiba como emitir boleto.</p>
+              </div>
+              <div>
+                <video width="480" height="360" controls preload="none">
+                  <source src="/videos/cadastroNA.mp4" type="video/mp4" />
+                  Seu navegador não suporta o elemento de vídeo.
+                </video>
+              </div>
+            </div> */}
+          </div>
           <div className="grid grid-cols-1 gap-4 px-4 md:grid-cols-3">
             <ServiceCardTributos
               title="Serviços por Tributo"
