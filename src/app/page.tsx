@@ -1,7 +1,7 @@
+import { ServiceCardOnline } from '@/components/service-card-online'
 import Image from 'next/image'
 import { HeroSearch } from '@/components/hero-search'
 
-import { ServiceCardOnline } from '@/components/service-card-online'
 import { ServiceCardPerfil } from '@/components/service-card-perfil'
 import { ServiceCardTributos } from '@/components/service-card-tributo'
 import { Button } from '@/components/ui/button'
