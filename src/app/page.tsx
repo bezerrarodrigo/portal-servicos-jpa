@@ -4,6 +4,22 @@ import { HeroSearch } from '@/components/hero-search'
 import { ServiceCardOnline } from '@/components/service-card-online'
 import { ServiceCardPerfil } from '@/components/service-card-perfil'
 import { ServiceCardTributos } from '@/components/service-card-tributo'
+import { Button } from '@/components/ui/button'
+import {
+  Card,
+  CardContent,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from '@/components/ui/card'
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from '@/components/ui/dialog'
 import {
   cidadaoItems,
   empresaItens,
@@ -13,24 +29,7 @@ import {
   itbiItems,
   taxaItems,
 } from '@/lib/data'
-import {
-  Dialog,
-  DialogContent,
-  DialogDescription,
-  DialogHeader,
-  DialogTitle,
-  DialogTrigger,
-} from '@/components/ui/dialog'
-import { Button } from '@/components/ui/button'
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from '@/components/ui/card'
-import { ScrollText, StickyNote, Video } from 'lucide-react'
+import { Video } from 'lucide-react'
 
 export default function Home() {
   return (
