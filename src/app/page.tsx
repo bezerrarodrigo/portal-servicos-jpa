@@ -65,7 +65,7 @@ export default function Home() {
                     rápida e fácil.
                   </p>
                 </CardContent>
-                <CardFooter>
+                <CardFooter className="flex flex-col gap-2">
                   <Dialog>
                     <DialogTrigger asChild>
                       <Button className="cursor-pointer w-full" variant="ghost">
@@ -100,6 +100,13 @@ export default function Home() {
                       </div>
                     </DialogContent>
                   </Dialog>
+                  <a
+                    className="text-gray-500 hover:text-foreground text-xs"
+                    href="https://receita.joaopessoa.pb.gov.br/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EXTRATOIMOVEL"
+                    target="_blank"
+                  >
+                    Clique aqui e emita seu boleto
+                  </a>
                 </CardFooter>
               </Card>
               <Card className="w-full sm:w-80 border border-red-300">
@@ -112,7 +119,7 @@ export default function Home() {
                     simples e rápida.
                   </p>
                 </CardContent>
-                <CardFooter>
+                <CardFooter className="flex flex-col gap-2">
                   <Dialog>
                     <DialogTrigger asChild>
                       <Button className="cursor-pointer w-full" variant="ghost">
@@ -147,25 +154,16 @@ export default function Home() {
                       </div>
                     </DialogContent>
                   </Dialog>
+                  <a
+                    className="text-gray-500 hover:text-foreground text-xs"
+                    href="https://receita.joaopessoa.pb.gov.br/notafiscal/paginas/portal-avulsa/#/"
+                    target="_blank"
+                  >
+                    Clique aqui e cadastre-se
+                  </a>
                 </CardFooter>
               </Card>
             </div>
-
-            {/*  <div className="flex gap-4 mt-4 w-1/2 mx-auto">
-              <div>
-                <video width="480" height="360" controls preload="none">
-                  <source src="/videos/emissaoBoleto.mp4" type="video/mp4" />
-                  Seu navegador não suporta o elemento de vídeo.
-                </video>
-                <p>Saiba como emitir boleto.</p>
-              </div>
-              <div>
-                <video width="480" height="360" controls preload="none">
-                  <source src="/videos/cadastroNA.mp4" type="video/mp4" />
-                  Seu navegador não suporta o elemento de vídeo.
-                </video>
-              </div>
-            </div> */}
           </div>
           <div className="grid grid-cols-1 gap-4 px-4 md:grid-cols-3">
             <ServiceCardTributos
