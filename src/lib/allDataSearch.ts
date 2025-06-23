@@ -24,7 +24,7 @@ const allServices = [
     href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=REEMITIRCERTIDAO`,
   },
   {
-    text: 'Validar Certidão',
+    text: 'Validar Certidão SIAT',
     href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=VALIDARCERTIDAO`,
   },
   {
@@ -56,7 +56,7 @@ const allServices = [
     href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=REEMITIRCERTIDAO`,
   },
   {
-    text: 'Validar Certidão',
+    text: 'Validar Certidão SIAT',
     href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=VALIDARCERTIDAO`,
   },
   {
@@ -80,15 +80,19 @@ const allServices = [
     href: `${process.env.NEXT_PUBLIC_BASE_URL}/itbi/paginas/portal/index.html`,
   },
   {
-    text: 'Certidão Negativa de Transferência Imobiliária',
-    href: `${process.env.NEXT_PUBLIC_BASE_URL}/itbi/paginas/certidao/certidaoPortalData.jsf?faces-redirect=true`,
+    text: 'Emitir / Reemitir Certidão de Transferência Imobiliária ITBI-e',
+    href: `${process.env.NEXT_PUBLIC_BASE_URL}/itbi/paginas/certidao/certidaoPortalList.jsf`,
   },
   {
-    text: 'Reemitir Certidão',
+    text: 'Validar autenticidade certidão ITBI-e',
+    href: `${process.env.NEXT_PUBLIC_BASE_URL}/itbi/paginas/confirmarautenticidadecertidao/confirmarAutenticidadeCertidaoPortalList.jsf`,
+  },
+  {
+    text: 'Reemitir Certidão SIAT',
     href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=REEMITIRCERTIDAO`,
   },
   {
-    text: 'Validar Certidão',
+    text: 'Validar Certidão SIAT',
     href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=VALIDARCERTIDAO`,
   },
   {
@@ -112,7 +116,7 @@ const allServices = [
     href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EMITIRCERTIDAOFINANCEIRAPES`,
   },
   {
-    text: 'Reemitir Certidão',
+    text: 'Reemitir Certidão SIAT',
     href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=REEMITIRCERTIDAO`,
   },
   {
@@ -152,11 +156,11 @@ const allServices = [
     href: `${process.env.NEXT_PUBLIC_BASE_URL}/itbi/paginas/guiaitbi/emiteGuiaPortalList.jsf`,
   },
   {
-    text: 'Reemitir Certidão',
+    text: 'Reemitir Certidão SIAT',
     href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=REEMITIRCERTIDAO`,
   },
   {
-    text: 'Validar Certidão',
+    text: 'Validar Certidão ',
     href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=VALIDARCERTIDAO`,
   },
   {
@@ -184,11 +188,11 @@ const allServices = [
     href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EMITIRCERTIDAOFINANCEIRAPES`,
   },
   {
-    text: 'Reemitir Certidão',
+    text: 'Reemitir Certidão SIAT',
     href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=REEMITIRCERTIDAO`,
   },
   {
-    text: 'Validar Certidão',
+    text: 'Validar Certidão SIAT',
     href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=VALIDARCERTIDAO`,
   },
   {
@@ -232,11 +236,11 @@ const allServices = [
     href: `${process.env.NEXT_PUBLIC_BASE_URL}/itbi/paginas/portal/index.html`,
   },
   {
-    text: 'Reemitir Certidão',
+    text: 'Reemitir Certidão SIAT',
     href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=REEMITIRCERTIDAO`,
   },
   {
-    text: 'Validar Certidão',
+    text: 'Validar Certidão SIAT',
     href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=VALIDARCERTIDAO`,
   },
   {
