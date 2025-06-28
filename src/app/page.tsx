@@ -83,19 +83,11 @@ export default function Home() {
                       </DialogHeader>
                       <div>
                         <div>
-                          <video
-                            width="620"
-                            height="500"
-                            controls
-                            preload="none"
-                            autoPlay={true}
-                          >
-                            <source
-                              src="/videos/emissaoBoleto.mp4"
-                              type="video/mp4"
-                            />
-                            Seu navegador não suporta o elemento de vídeo.
-                          </video>
+                          <iframe
+                            className="w-full h-96"
+                            src="https://www.youtube.com/embed/yh3DbhMybCk?si=z5tbZTs3RyfdePUd"
+                            allowFullScreen
+                          />
                         </div>
                       </div>
                     </DialogContent>
@@ -137,19 +129,11 @@ export default function Home() {
                       </DialogHeader>
                       <div>
                         <div>
-                          <video
-                            width="620"
-                            height="500"
-                            controls
-                            preload="none"
-                            autoPlay={true}
-                          >
-                            <source
-                              src="/videos/cadastroNA.mp4"
-                              type="video/mp4"
-                            />
-                            Seu navegador não suporta o elemento de vídeo.
-                          </video>
+                          <iframe
+                            className="w-full h-96"
+                            src="https://www.youtube.com/embed/rcC0qOliOoU"
+                            allowFullScreen
+                          />
                         </div>
                       </div>
                     </DialogContent>
@@ -160,6 +144,52 @@ export default function Home() {
                     target="_blank"
                   >
                     Clique aqui e cadastre-se
+                  </a>
+                </CardFooter>
+              </Card>
+              <Card className="w-full sm:w-80 border border-red-300">
+                <CardHeader>
+                  <CardTitle>Abertura de Requerimento de ITBI</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground text-sm">
+                    Preencher o requerimento da Guia de ITBI de forma simples e
+                    rápida.
+                  </p>
+                </CardContent>
+                <CardFooter className="flex flex-col gap-2">
+                  <Dialog>
+                    <DialogTrigger asChild>
+                      <Button className="cursor-pointer w-full" variant="ghost">
+                        Ver vídeo
+                        <Video color="red" />
+                      </Button>
+                    </DialogTrigger>
+                    <DialogContent className="sm:max-w-2xl">
+                      <DialogHeader>
+                        <DialogTitle>Requerimento ITBI</DialogTitle>
+                        <DialogDescription>
+                          Saiba como preencher o requerimento da Guia de ITBI de
+                          forma simples e rápida.
+                        </DialogDescription>
+                      </DialogHeader>
+                      <div>
+                        <div>
+                          <iframe
+                            className="w-full h-96"
+                            src="https://www.youtube.com/embed/4Am2fTnwY1M"
+                            allowFullScreen
+                          />
+                        </div>
+                      </div>
+                    </DialogContent>
+                  </Dialog>
+                  <a
+                    className="text-gray-500 hover:text-foreground text-xs"
+                    href="https://receita.joaopessoa.pb.gov.br/itbi/paginas/portal/index.html"
+                    target="_blank"
+                  >
+                    Clique aqui e abra seu requerimento
                   </a>
                 </CardFooter>
               </Card>
