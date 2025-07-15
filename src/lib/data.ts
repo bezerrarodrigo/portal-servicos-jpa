@@ -32,6 +32,10 @@ const issItems = [
     href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=CERTIDAOBAIXAINSCRICAOMUNICIPAL`,
   },
   {
+    text: 'Comprovante de Inscrição e de Situação Cadastral',
+    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=COMPROVANTEINSCRICAOESITUACAOMUNICIPAL`,
+  },
+  {
     text: 'Portal de Parcelamento e Negociação',
     href: `${process.env.NEXT_PUBLIC_BASE_URL}/portal-web/paginas/inicial/`,
   },
@@ -156,8 +160,12 @@ const imovelItens = [
     href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EMITIRCERTIDAOFINANCEIRAIMO`,
   },
   {
+    text: 'Ficha Cadastral Imóvel',
+    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=FICHAIMOPORTAL`,
+  },
+  {
     text: 'Emitir Guia IPTU/TCR-Taxa de Lixo',
-    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EXTRATOIMOVEL`,
+    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=FICHAIMOPORTAL`,
   },
   {
     text: 'Emitir Memória de Cálculo do Imóvel',
@@ -197,6 +205,10 @@ const empresaItens = [
   {
     text: 'Emitir Guia ISS/TFLF',
     href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EXTRATOEMPRESA`,
+  },
+  {
+    text: 'Comprovante de Inscrição e de Situação Cadastral',
+    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=COMPROVANTEINSCRICAOESITUACAOMUNICIPAL`,
   },
   {
     text: 'Emitir Guia ISS/TFLF Autonômo',
