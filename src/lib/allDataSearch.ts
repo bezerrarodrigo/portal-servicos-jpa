@@ -8,6 +8,10 @@ const allServices = [
     href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EXTRATOEMPRESA`,
   },
   {
+    text: 'Comprovante de Inscrição e de Situação Cadastral',
+    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=COMPROVANTEINSCRICAOESITUACAOMUNICIPAL`,
+  },
+  {
     text: 'Nota Fiscal de Serviços',
     href: `${process.env.NEXT_PUBLIC_BASE_URL}/notafiscal/paginas/portal`,
   },
@@ -90,6 +94,10 @@ const allServices = [
   {
     text: 'Reemitir Certidão SIAT',
     href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=REEMITIRCERTIDAO`,
+  },
+  {
+    text: 'Ficha Cadastral Imóvel',
+    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=FICHAIMOPORTAL`,
   },
   {
     text: 'Validar Certidão SIAT',
