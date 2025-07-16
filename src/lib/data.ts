@@ -63,6 +63,10 @@ const iptuItems = [
     href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=IMOVEL`,
   },
   {
+    text: 'Ficha Cadastral Imóvel',
+    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=FICHAIMOPORTAL`,
+  },
+  {
     text: 'Reemitir Certidão SIAT',
     href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=REEMITIRCERTIDAO`,
   },
