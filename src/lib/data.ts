@@ -169,7 +169,7 @@ const imovelItens = [
   },
   {
     text: 'Emitir Guia IPTU/TCR-Taxa de Lixo',
-    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=FICHAIMOPORTAL`,
+    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EXTRATOIMOVEL`,
   },
   {
     text: 'Emitir Memória de Cálculo do Imóvel',
