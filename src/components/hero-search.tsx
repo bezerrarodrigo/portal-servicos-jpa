@@ -12,6 +12,7 @@ import {
 } from '@/components/ui/command'
 import { Input } from '@/components/ui/input'
 import { filteredServices } from '@/lib/allDataSearch'
+import Link from 'next/link'
 
 export function HeroSearch() {
   const [open, setOpen] = useState(false)
@@ -47,20 +48,9 @@ export function HeroSearch() {
           </CommandDialog>
           <div className="flex flex-col gap-4 text-white">
             <ul className="flex flex-col gap-2 md:gap-1">
-              <a
-                className="hover:underline font-light text-sm text-center md:text-left"
-                href={`${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EMITIRCERTIDAOFINANCEIRAPES`}
-                target="_blank"
-              >
+              <Link href="/screens/certidao-financeira-pessoa">
                 Certidão Financeira Pessoa
-              </a>
-              <a
-                className="hover:underline font-light text-sm text-center md:text-left"
-                href={`${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EMITIRCERTIDAOFINANCEIRAIMO`}
-                target="_blank"
-              >
-                Certidão Financeira Imóvel
-              </a>
+              </Link>
               <a
                 className="hover:underline font-light text-sm text-center md:text-left"
                 href={`${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=CERTIDAOBAIXAINSCRICAOMUNICIPAL`}

@@ -11,6 +11,7 @@ import {
   SheetTitle,
   SheetTrigger,
 } from '@/components/ui/sheet'
+import Link from 'next/link'
 
 export function Header() {
   return (
@@ -34,9 +35,7 @@ export function Header() {
               <SheetDescription>Principais serviços</SheetDescription>
             </SheetHeader>
             <div className="p-4 space-y-6">
-              <a href="/" target="_blank">
-                Home
-              </a>
+              <Link href="/">Inicial</Link>
               <Separator className="mt-2" />
               <a href="#" target="_blank">
                 Carta de Serviços
@@ -69,9 +68,7 @@ export function Header() {
           </SheetContent>
         </Sheet>
         <nav className="hidden gap-8 lg:flex">
-          <a href="/" target="_blank">
-            Inicial
-          </a>
+          <Link href="/">Inicial</Link>
           <Separator style={{ height: 24 }} orientation="vertical" />
           <a href="#" target="_blank">
             Carta de Serviços
