@@ -39,3 +39,8 @@ export const certidaoFinanceiraPessoaDTO = z.object({
       )
     }, 'CPF inválido.'),
 })
+
+export const validarAutenticidadeCertidaoDTO = z.object({
+  numero: z.string().min(1, 'Número da certidão é obrigatório.'),
+  codigo: z.string().min(1, 'Código de autenticidade é obrigatório.'),
+})
