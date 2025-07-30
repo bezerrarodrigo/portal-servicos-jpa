@@ -68,13 +68,12 @@ export function HeroSearch() {
               >
                 Comprovante de Inscrição e de Situação Cadastral
               </a>
-              <a
+              <Link
                 className="hover:underline font-light text-sm text-center md:text-left"
-                href={`${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EXTRATOEMPRESA`}
-                target="_blank"
+                href="/screens/extrato-guia"
               >
                 Emissão de guia ISS/Taxas
-              </a>
+              </Link>
               <a
                 className="hover:underline font-light text-sm text-center md:text-left"
                 href={`${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EXTRATOIMOVEL`}
