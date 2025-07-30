@@ -48,7 +48,10 @@ export function HeroSearch() {
           </CommandDialog>
           <div className="flex flex-col gap-4 text-white">
             <ul className="flex flex-col gap-2 md:gap-1">
-              <Link href="/screens/certidao-financeira-pessoa">
+              <Link
+                className="text-sm font-light"
+                href="/screens/certidao-financeira-pessoa"
+              >
                 Certidão Financeira Pessoa
               </Link>
               <a

@@ -103,7 +103,7 @@ const itbiItems = [
   },
   {
     text: 'Validar autenticidade certidão ITBI-e',
-    href: `${process.env.NEXT_PUBLIC_BASE_URL}/itbi/paginas/confirmarautenticidadecertidao/confirmarAutenticidadeCertidaoPortalList.jsf`,
+    href: `/screens/autenticidade-certidao`,
   },
   {
     text: 'Reemitir Certidão SIAT',

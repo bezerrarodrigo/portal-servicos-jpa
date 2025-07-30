@@ -14,6 +14,7 @@ import {
   CardTitle,
 } from '@/components/ui/card'
 import { ServiceCardTributosProps } from '@/lib/types'
+import Link from 'next/link'
 
 export function ServiceCardTributos({
   title,
@@ -88,13 +89,13 @@ export function ServiceCardTributos({
               <ul className="mt-2 space-y-1">
                 {servicosItbi?.map((item, index) => (
                   <li key={index}>
-                    <a
+                    <Link
                       className="text-gray-500 hover:text-foreground text-xs"
                       href={item.href}
-                      target="_blank"
+                      target="_self"
                     >
                       {item.text}
-                    </a>
+                    </Link>
                   </li>
                 ))}
               </ul>
