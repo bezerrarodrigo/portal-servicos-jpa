@@ -7,6 +7,7 @@ import {
   CardTitle,
 } from '@/components/ui/card'
 import { Input } from '@/components/ui/input'
+import Link from 'next/link'
 
 export function LoginForm() {
   return (
@@ -47,9 +48,13 @@ export function LoginForm() {
                 />
               </div>
               <div className="flex flex-col gap-3">
-                <Button type="submit" className="w-full">
+                <Link
+                  href="/screens/dashboard"
+                  type="submit"
+                  className="w-full border rounded-md bg-primary text-white flex items-center justify-center h-9"
+                >
                   Entrar
-                </Button>
+                </Link>
                 <Button variant="outline" className="w-full">
                   Entrar com Google
                 </Button>
