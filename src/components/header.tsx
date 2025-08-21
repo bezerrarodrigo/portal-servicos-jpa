@@ -98,12 +98,12 @@ export function Header() {
             Dúvidas Frequentes
           </a>
         </nav>
-        <Button
-          className="h-6 cursor-pointer rounded-xs px-4 font-light"
-          variant="outline"
+        <Link
+          className="h-6 cursor-pointer rounded-sm  px-4"
+          href="/screens/login"
         >
           Entrar
-        </Button>
+        </Link>
       </div>
     </header>
   )
