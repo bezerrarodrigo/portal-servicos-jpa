@@ -99,7 +99,7 @@ export function Header() {
           </a>
         </nav>
         <Link
-          className="h-6 cursor-pointer rounded-sm  px-4"
+          className="cursor-pointer text-sm rounded-sm px-2 py-1 border-1 text-red-500"
           href="/screens/login"
         >
           Entrar
