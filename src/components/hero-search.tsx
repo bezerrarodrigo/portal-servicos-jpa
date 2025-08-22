@@ -50,7 +50,7 @@ export function HeroSearch() {
             <ul className="flex flex-col gap-2 md:gap-1">
               <Link
                 className="text-sm font-light"
-                href="/screens/certidao-financeira-pessoa"
+                href="/certidao-financeira-pessoa"
               >
                 Certidão Financeira Pessoa
               </Link>
@@ -70,7 +70,7 @@ export function HeroSearch() {
               </a>
               <Link
                 className="hover:underline font-light text-sm text-center md:text-left"
-                href="/screens/extrato-guia"
+                href="/extrato-guia"
               >
                 Emissão de guia ISS/Taxas
               </Link>

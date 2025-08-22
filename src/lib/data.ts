@@ -103,7 +103,7 @@ const itbiItems = [
   },
   {
     text: 'Validar autenticidade certidão ITBI-e',
-    href: `/screens/autenticidade-certidao`,
+    href: `/autenticidade-certidao`,
   },
   {
     text: 'Reemitir Certidão SIAT',

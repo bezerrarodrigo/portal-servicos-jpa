@@ -49,7 +49,7 @@ export function LoginForm() {
               </div>
               <div className="flex flex-col gap-3">
                 <Link
-                  href="/screens/dashboard"
+                  href="/dashboard"
                   type="submit"
                   className="w-full border rounded-md bg-primary text-white flex items-center justify-center h-9"
                 >

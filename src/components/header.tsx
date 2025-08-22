@@ -100,7 +100,7 @@ export function Header() {
         </nav>
         <Link
           className="cursor-pointer text-sm rounded-sm px-2 py-1 border-1 text-red-500"
-          href="/screens/login"
+          href="/login"
         >
           Entrar
         </Link>
