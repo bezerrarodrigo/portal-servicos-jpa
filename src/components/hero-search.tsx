@@ -89,6 +89,13 @@ export function HeroSearch() {
               >
                 Emissão de guia IPTU/TCR
               </a>
+              <a
+                className="hover:underline font-light text-sm text-center md:text-left"
+                href={`${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EXTRATOIMOVEL`}
+                target="_blank"
+              >
+                Consultar indicadores econômicos
+              </a>
             </ul>
           </div>
         </div>
