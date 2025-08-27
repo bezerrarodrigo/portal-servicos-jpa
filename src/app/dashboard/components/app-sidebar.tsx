@@ -1,6 +1,6 @@
-'use client'
+"use client";
 
-import * as React from 'react'
+import * as React from "react";
 import {
   IconCamera,
   IconChartBar,
@@ -11,13 +11,12 @@ import {
   IconFileWord,
   IconFolder,
   IconHelp,
-  IconInnerShadowTop,
   IconListDetails,
   IconReport,
   IconSearch,
   IconSettings,
-  IconUsers,
-} from '@tabler/icons-react'
+  IconUsers
+} from "@tabler/icons-react";
 
 import {
   Sidebar,
@@ -26,129 +25,130 @@ import {
   SidebarHeader,
   SidebarMenu,
   SidebarMenuButton,
-  SidebarMenuItem,
-} from '@/components/ui/sidebar'
-import { NavDocuments } from './nav-documents'
-import { NavMain } from './nav-main'
-import { NavSecondary } from './nav-secondary'
-import { NavUser } from './nav-user'
+  SidebarMenuItem
+} from "@/components/ui/sidebar";
+import { NavDocuments } from "./nav-documents";
+import { NavMain } from "./nav-main";
+import { NavSecondary } from "./nav-secondary";
+import { NavUser } from "./nav-user";
+import { Separator } from "@/components/ui/separator";
 
 const data = {
   user: {
-    name: 'shadcn',
-    email: 'm@example.com',
-    avatar: '/avatars/shadcn.jpg',
+    name: "João da Silva",
+    email: "joao@email.com.br",
+    avatar: "/avatars/shadcn.jpg"
   },
   navMain: [
     {
-      title: 'Dashboard',
-      url: '#',
-      icon: IconDashboard,
+      title: "Dashboard",
+      url: "#",
+      icon: IconDashboard
     },
     {
-      title: 'Lifecycle',
-      url: '#',
-      icon: IconListDetails,
+      title: "Identificação do cidadão",
+      url: "#",
+      icon: IconListDetails
     },
     {
-      title: 'Analytics',
-      url: '#',
-      icon: IconChartBar,
+      title: "Tributos e Impostos",
+      url: "#",
+      icon: IconChartBar
     },
     {
-      title: 'Projects',
-      url: '#',
-      icon: IconFolder,
+      title: "Financeiro",
+      url: "#",
+      icon: IconFolder
     },
     {
-      title: 'Team',
-      url: '#',
-      icon: IconUsers,
-    },
+      title: "Cadastro Imobiliário/Territorial",
+      url: "#",
+      icon: IconUsers
+    }
   ],
   navClouds: [
     {
-      title: 'Capture',
+      title: "Capture",
       icon: IconCamera,
       isActive: true,
-      url: '#',
+      url: "#",
       items: [
         {
-          title: 'Active Proposals',
-          url: '#',
+          title: "Active Proposals",
+          url: "#"
         },
         {
-          title: 'Archived',
-          url: '#',
-        },
-      ],
+          title: "Archived",
+          url: "#"
+        }
+      ]
     },
     {
-      title: 'Proposal',
+      title: "Proposal",
       icon: IconFileDescription,
-      url: '#',
+      url: "#",
       items: [
         {
-          title: 'Active Proposals',
-          url: '#',
+          title: "Active Proposals",
+          url: "#"
         },
         {
-          title: 'Archived',
-          url: '#',
-        },
-      ],
+          title: "Archived",
+          url: "#"
+        }
+      ]
     },
     {
-      title: 'Prompts',
+      title: "Prompts",
       icon: IconFileAi,
-      url: '#',
+      url: "#",
       items: [
         {
-          title: 'Active Proposals',
-          url: '#',
+          title: "Active Proposals",
+          url: "#"
         },
         {
-          title: 'Archived',
-          url: '#',
-        },
-      ],
-    },
+          title: "Archived",
+          url: "#"
+        }
+      ]
+    }
   ],
   navSecondary: [
     {
-      title: 'Settings',
-      url: '#',
-      icon: IconSettings,
+      title: "Configurações",
+      url: "#",
+      icon: IconSettings
     },
     {
-      title: 'Get Help',
-      url: '#',
-      icon: IconHelp,
+      title: "Ajuda",
+      url: "#",
+      icon: IconHelp
     },
     {
-      title: 'Search',
-      url: '#',
-      icon: IconSearch,
-    },
+      title: "Pesquisar",
+      url: "#",
+      icon: IconSearch
+    }
   ],
   documents: [
     {
-      name: 'Data Library',
-      url: '#',
-      icon: IconDatabase,
+      name: "Data Library",
+      url: "#",
+      icon: IconDatabase
     },
     {
-      name: 'Reports',
-      url: '#',
-      icon: IconReport,
+      name: "Reports",
+      url: "#",
+      icon: IconReport
     },
     {
-      name: 'Word Assistant',
-      url: '#',
-      icon: IconFileWord,
-    },
-  ],
-}
+      name: "Word Assistant",
+      url: "#",
+      icon: IconFileWord
+    }
+  ]
+};
 
 export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
   return (
@@ -161,8 +161,8 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
               className="data-[slot=sidebar-menu-button]:!p-1.5"
             >
               <a href="#">
-                <IconInnerShadowTop className="!size-5" />
-                <span className="text-base font-semibold">Acme Inc.</span>
+                <IconDashboard />
+                <span className="text-base font-semibold">Prefeitura de João Pessoa</span>
               </a>
             </SidebarMenuButton>
           </SidebarMenuItem>
@@ -170,12 +170,13 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
       </SidebarHeader>
       <SidebarContent>
         <NavMain items={data.navMain} />
-        <NavDocuments items={data.documents} />
+        {/*<NavDocuments items={data.documents} />*/}
         <NavSecondary items={data.navSecondary} className="mt-auto" />
       </SidebarContent>
+      <Separator />
       <SidebarFooter>
         <NavUser user={data.user} />
       </SidebarFooter>
     </Sidebar>
-  )
+  );
 }
