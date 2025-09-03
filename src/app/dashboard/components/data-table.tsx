@@ -1,3 +1,4 @@
+import { Badge } from '@/components/ui/badge'
 import {
   Table,
   TableBody,
@@ -11,46 +12,46 @@ import {
 
 const invoices = [
   {
-    invoice: 'INV001',
-    paymentStatus: 'Paid',
-    totalAmount: '$250.00',
-    paymentMethod: 'Credit Card',
+    invoice: 'IPTU',
+    paymentStatus: 'Pago',
+    totalAmount: 'R$850,00',
+    paymentMethod: 'Parcela 2/6',
   },
   {
-    invoice: 'INV002',
-    paymentStatus: 'Pending',
-    totalAmount: '$150.00',
-    paymentMethod: 'PayPal',
+    invoice: 'Taxa de Lixo',
+    paymentStatus: 'Pendente',
+    totalAmount: 'R$150,00',
+    paymentMethod: 'Boleto bancário',
   },
   {
-    invoice: 'INV003',
-    paymentStatus: 'Unpaid',
-    totalAmount: '$350.00',
-    paymentMethod: 'Bank Transfer',
+    invoice: 'ISS Autônomo',
+    paymentStatus: 'Aberto',
+    totalAmount: 'R$350,00',
+    paymentMethod: 'Pix',
   },
   {
-    invoice: 'INV004',
-    paymentStatus: 'Paid',
-    totalAmount: '$450.00',
-    paymentMethod: 'Credit Card',
+    invoice: 'Alvará Comércio',
+    paymentStatus: 'Pago',
+    totalAmount: 'R$450,00',
+    paymentMethod: 'Cartão de Crédito',
   },
   {
-    invoice: 'INV005',
-    paymentStatus: 'Paid',
-    totalAmount: '$550.00',
-    paymentMethod: 'PayPal',
+    invoice: 'Iluminação Pública',
+    paymentStatus: 'Pago',
+    totalAmount: 'R$550,00',
+    paymentMethod: 'Boleto bancário',
   },
   {
-    invoice: 'INV006',
-    paymentStatus: 'Pending',
-    totalAmount: '$200.00',
-    paymentMethod: 'Bank Transfer',
+    invoice: 'Taxa de fiscalização',
+    paymentStatus: 'Pago',
+    totalAmount: 'R$200,00',
+    paymentMethod: 'Transferência bancária',
   },
   {
-    invoice: 'INV007',
-    paymentStatus: 'Unpaid',
-    totalAmount: '$300.00',
-    paymentMethod: 'Credit Card',
+    invoice: 'Multa de postura',
+    paymentStatus: 'Pendente',
+    totalAmount: 'R$300,00',
+    paymentMethod: 'Transferência bancária',
   },
 ]
 
@@ -63,17 +64,30 @@ export function DataTable() {
       </TableCaption>
       <TableHeader>
         <TableRow>
-          <TableHead className='w-[100px]'>Invoice</TableHead>
-          <TableHead>Status</TableHead>
-          <TableHead>Method</TableHead>
-          <TableHead className='text-right'>Amount</TableHead>
+          <TableHead className='w-[100px]'>Tributo</TableHead>
+          <TableHead>Situação</TableHead>
+          <TableHead>Tipo</TableHead>
+          <TableHead className='text-right'>Valor</TableHead>
         </TableRow>
       </TableHeader>
       <TableBody>
         {invoices.map((invoice) => (
           <TableRow key={invoice.invoice}>
             <TableCell className='font-medium'>{invoice.invoice}</TableCell>
-            <TableCell>{invoice.paymentStatus}</TableCell>
+            <TableCell>
+              <Badge
+                className={
+                  invoice.paymentStatus === 'Pago'
+                    ? 'bg-teal-600'
+                    : invoice.paymentStatus === 'Pendente'
+                      ? 'bg-yellow-400'
+                      : 'bg-red-400'
+                }
+                variant='default'
+              >
+                {invoice.paymentStatus}
+              </Badge>
+            </TableCell>
             <TableCell>{invoice.paymentMethod}</TableCell>
             <TableCell className='text-right'>{invoice.totalAmount}</TableCell>
           </TableRow>
@@ -82,7 +96,7 @@ export function DataTable() {
       <TableFooter>
         <TableRow>
           <TableCell colSpan={3}>Total</TableCell>
-          <TableCell className='text-right'>$2,500.00</TableCell>
+          <TableCell className='text-right'>R$2.850,00</TableCell>
         </TableRow>
       </TableFooter>
     </Table>
