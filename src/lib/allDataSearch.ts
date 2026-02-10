@@ -1,278 +1,282 @@
 const allServices = [
   {
-    text: 'Emitir Guia ISS',
-    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EXTRATOEMPRESA`,
+    text: "Emitir Guia ISS",
+    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EXTRATOEMPRESA`
   },
   {
-    text: 'Emitir Guia ISS Autônomo',
-    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EXTRATOEMPRESA`,
+    text: "Emitir Guia ISS Autônomo",
+    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EXTRATOEMPRESA`
   },
   {
-    text: 'Comprovante de Inscrição e de Situação Cadastral',
-    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=COMPROVANTEINSCRICAOESITUACAOMUNICIPAL`,
+    text: "Comprovante de Inscrição e de Situação Cadastral",
+    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=COMPROVANTEINSCRICAOESITUACAOMUNICIPAL`
   },
   {
-    text: 'Nota Fiscal de Serviços',
-    href: `${process.env.NEXT_PUBLIC_BASE_URL}/notafiscal/paginas/portal`,
+    text: "Nota Fiscal de Serviços",
+    href: `${process.env.NEXT_PUBLIC_BASE_URL}/notafiscal/paginas/portal`
   },
   {
-    text: 'Nota Fiscal de Serviços Avulsa',
-    href: `${process.env.NEXT_PUBLIC_BASE_URL}/notafiscal/paginas/portal-avulsa`,
+    text: "Nota Fiscal de Serviços Avulsa",
+    href: `${process.env.NEXT_PUBLIC_BASE_URL}/notafiscal/paginas/portal-avulsa`
   },
   {
-    text: 'Certidão Financeira Pessoa',
-    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EMITIRCERTIDAOFINANCEIRAPES`,
+    text: "Certidão Financeira Pessoa",
+    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EMITIRCERTIDAOFINANCEIRAPES`
   },
   {
-    text: 'Reemitir Certidão',
-    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=REEMITIRCERTIDAO`,
+    text: "Reemitir Certidão",
+    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=REEMITIRCERTIDAO`
   },
   {
-    text: 'Validar Certidão SIAT',
-    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=VALIDARCERTIDAO`,
+    text: "Validar Certidão SIAT",
+    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=VALIDARCERTIDAO`
   },
   {
-    text: 'Certidão de Baixa',
-    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=CERTIDAOBAIXAINSCRICAOMUNICIPAL`,
+    text: "Certidão de Baixa",
+    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=CERTIDAOBAIXAINSCRICAOMUNICIPAL`
   },
   {
-    text: 'Portal de Parcelamento e Negociação',
-    href: `${process.env.NEXT_PUBLIC_BASE_URL}/portal-web/paginas/inicial/`,
+    text: "Portal de Parcelamento e Negociação",
+    href: `${process.env.NEXT_PUBLIC_BASE_URL}/portal-web/paginas/inicial/`
   },
   {
-    text: 'Legislação (Lei Complementar)',
-    href: 'https://www.joaopessoa.pb.gov.br/pc/consultaLegislacao.xhtml?tipo=1',
+    text: "Legislação (Lei Complementar)",
+    href: "https://www.joaopessoa.pb.gov.br/pc/consultaLegislacao.xhtml?tipo=1"
   },
   {
-    text: 'Legislação (Decreto)',
-    href: 'https://www.joaopessoa.pb.gov.br/pc/consultaLegislacao.xhtml?tipo=2',
+    text: "Legislação (Decreto)",
+    href: "https://www.joaopessoa.pb.gov.br/pc/consultaLegislacao.xhtml?tipo=2"
   },
   {
-    text: 'Emitir Guia IPTU/TCR-Taxa de Lixo',
-    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EXTRATOIMOVEL`,
+    text: "Emitir Guia IPTU/TCR-Taxa de Lixo",
+    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EXTRATOIMOVEL`
   },
   {
-    text: 'Emitir Memória de Cálculo do Imóvel',
-    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=IMOVEL`,
+    text: "Emissão de guia IPTU/TCR 2026",
+    href: `https://jpa.dsfweb.com.br/portal-web/paginas/iptu/index.jsf`
   },
   {
-    text: 'Reemitir Certidão',
-    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=REEMITIRCERTIDAO`,
+    text: "Emitir Memória de Cálculo do Imóvel",
+    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=IMOVEL`
   },
   {
-    text: 'Validar Certidão SIAT',
-    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=VALIDARCERTIDAO`,
+    text: "Reemitir Certidão",
+    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=REEMITIRCERTIDAO`
   },
   {
-    text: 'Portal de Parcelamento e Negociação',
-    href: `${process.env.NEXT_PUBLIC_BASE_URL}/portal-web/paginas/inicial/`,
+    text: "Validar Certidão SIAT",
+    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=VALIDARCERTIDAO`
   },
   {
-    text: 'Legislação (Lei Complementar)',
-    href: 'https://www.joaopessoa.pb.gov.br/pc/consultaLegislacao.xhtml?tipo=1',
+    text: "Portal de Parcelamento e Negociação",
+    href: `${process.env.NEXT_PUBLIC_BASE_URL}/portal-web/paginas/inicial/`
   },
   {
-    text: 'Legislação (Decreto)',
-    href: 'https://www.joaopessoa.pb.gov.br/pc/consultaLegislacao.xhtml?tipo=2',
+    text: "Legislação (Lei Complementar)",
+    href: "https://www.joaopessoa.pb.gov.br/pc/consultaLegislacao.xhtml?tipo=1"
   },
   {
-    text: 'Emitir Guia ITBI-e',
-    href: `${process.env.NEXT_PUBLIC_BASE_URL}/itbi/paginas/guiaitbi/emiteGuiaPortalList.jsf`,
+    text: "Legislação (Decreto)",
+    href: "https://www.joaopessoa.pb.gov.br/pc/consultaLegislacao.xhtml?tipo=2"
   },
   {
-    text: 'Sistema ITBI-e',
-    href: `${process.env.NEXT_PUBLIC_BASE_URL}/itbi/paginas/portal/index.html`,
+    text: "Emitir Guia ITBI-e",
+    href: `${process.env.NEXT_PUBLIC_BASE_URL}/itbi/paginas/guiaitbi/emiteGuiaPortalList.jsf`
   },
   {
-    text: 'Emitir / Reemitir Certidão de Transferência Imobiliária ITBI-e',
-    href: `${process.env.NEXT_PUBLIC_BASE_URL}/itbi/paginas/certidao/certidaoPortalList.jsf`,
+    text: "Sistema ITBI-e",
+    href: `${process.env.NEXT_PUBLIC_BASE_URL}/itbi/paginas/portal/index.html`
   },
   {
-    text: 'Validar autenticidade certidão ITBI-e',
-    href: `${process.env.NEXT_PUBLIC_BASE_URL}/itbi/paginas/confirmarautenticidadecertidao/confirmarAutenticidadeCertidaoPortalList.jsf`,
+    text: "Emitir / Reemitir Certidão de Transferência Imobiliária ITBI-e",
+    href: `${process.env.NEXT_PUBLIC_BASE_URL}/itbi/paginas/certidao/certidaoPortalList.jsf`
   },
   {
-    text: 'Reemitir Certidão SIAT',
-    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=REEMITIRCERTIDAO`,
+    text: "Validar autenticidade certidão ITBI-e",
+    href: `${process.env.NEXT_PUBLIC_BASE_URL}/itbi/paginas/confirmarautenticidadecertidao/confirmarAutenticidadeCertidaoPortalList.jsf`
   },
   {
-    text: 'Ficha Cadastral Imóvel',
-    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=FICHAIMOPORTAL`,
+    text: "Reemitir Certidão SIAT",
+    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=REEMITIRCERTIDAO`
   },
   {
-    text: 'Validar Certidão SIAT',
-    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=VALIDARCERTIDAO`,
+    text: "Ficha Cadastral Imóvel",
+    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=FICHAIMOPORTAL`
   },
   {
-    text: 'Legislação (Lei Complementar)',
-    href: 'https://www.joaopessoa.pb.gov.br/pc/consultaLegislacao.xhtml?tipo=1',
+    text: "Validar Certidão SIAT",
+    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=VALIDARCERTIDAO`
   },
   {
-    text: 'Legislação (Decreto)',
-    href: 'https://www.joaopessoa.pb.gov.br/pc/consultaLegislacao.xhtml?tipo=2',
+    text: "Legislação (Lei Complementar)",
+    href: "https://www.joaopessoa.pb.gov.br/pc/consultaLegislacao.xhtml?tipo=1"
   },
   {
-    text: 'Emitir Guia TFLF',
-    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EXTRATOEMPRESA`,
+    text: "Legislação (Decreto)",
+    href: "https://www.joaopessoa.pb.gov.br/pc/consultaLegislacao.xhtml?tipo=2"
   },
   {
-    text: 'Emitir Guia TFLF Autonômo',
-    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EXTRATOEMPRESA`,
+    text: "Emitir Guia TFLF",
+    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EXTRATOEMPRESA`
   },
   {
-    text: 'Certidão Financeira Pessoa',
-    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EMITIRCERTIDAOFINANCEIRAPES`,
+    text: "Emitir Guia TFLF Autonômo",
+    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EXTRATOEMPRESA`
   },
   {
-    text: 'Reemitir Certidão SIAT',
-    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=REEMITIRCERTIDAO`,
+    text: "Certidão Financeira Pessoa",
+    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EMITIRCERTIDAOFINANCEIRAPES`
   },
   {
-    text: 'Portal de Parcelamento e Negociação',
-    href: `${process.env.NEXT_PUBLIC_BASE_URL}/portal-web/paginas/inicial/`,
+    text: "Reemitir Certidão SIAT",
+    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=REEMITIRCERTIDAO`
   },
   {
-    text: 'Legislação (Lei Complementar)',
-    href: 'https://www.joaopessoa.pb.gov.br/pc/consultaLegislacao.xhtml?tipo=1',
+    text: "Portal de Parcelamento e Negociação",
+    href: `${process.env.NEXT_PUBLIC_BASE_URL}/portal-web/paginas/inicial/`
   },
   {
-    text: 'Legislação (Decreto)',
-    href: 'https://www.joaopessoa.pb.gov.br/pc/consultaLegislacao.xhtml?tipo=2',
+    text: "Legislação (Lei Complementar)",
+    href: "https://www.joaopessoa.pb.gov.br/pc/consultaLegislacao.xhtml?tipo=1"
   },
   {
-    text: 'Certidão Financeira Imóvel',
-    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EMITIRCERTIDAOFINANCEIRAIMO`,
+    text: "Legislação (Decreto)",
+    href: "https://www.joaopessoa.pb.gov.br/pc/consultaLegislacao.xhtml?tipo=2"
   },
   {
-    text: 'Emitir Guia IPTU/TCR-Taxa de Lixo',
-    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EXTRATOIMOVEL`,
+    text: "Certidão Financeira Imóvel",
+    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EMITIRCERTIDAOFINANCEIRAIMO`
   },
   {
-    text: 'Emitir Memória de Cálculo do Imóvel',
-    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=IMOVEL`,
+    text: "Emitir Guia IPTU/TCR-Taxa de Lixo",
+    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EXTRATOIMOVEL`
   },
   {
-    text: 'Emitir Guia ITBI-e',
-    href: `${process.env.NEXT_PUBLIC_BASE_URL}/itbi/paginas/guiaitbi/emiteGuiaPortalList.jsf`,
+    text: "Emitir Memória de Cálculo do Imóvel",
+    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=IMOVEL`
   },
   {
-    text: 'Emitir Guia SIAT',
-    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EMITIRITBI`,
+    text: "Emitir Guia ITBI-e",
+    href: `${process.env.NEXT_PUBLIC_BASE_URL}/itbi/paginas/guiaitbi/emiteGuiaPortalList.jsf`
   },
   {
-    text: 'Sistema ITBI-e',
-    href: `${process.env.NEXT_PUBLIC_BASE_URL}/itbi/paginas/guiaitbi/emiteGuiaPortalList.jsf`,
+    text: "Emitir Guia SIAT",
+    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EMITIRITBI`
   },
   {
-    text: 'Reemitir Certidão SIAT',
-    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=REEMITIRCERTIDAO`,
+    text: "Sistema ITBI-e",
+    href: `${process.env.NEXT_PUBLIC_BASE_URL}/itbi/paginas/guiaitbi/emiteGuiaPortalList.jsf`
   },
   {
-    text: 'Validar Certidão ',
-    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=VALIDARCERTIDAO`,
+    text: "Reemitir Certidão SIAT",
+    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=REEMITIRCERTIDAO`
   },
   {
-    text: 'Portal de Parcelamento e Negociação',
-    href: `${process.env.NEXT_PUBLIC_BASE_URL}/portal-web/paginas/inicial/`,
+    text: "Validar Certidão ",
+    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=VALIDARCERTIDAO`
   },
   {
-    text: 'Emitir Guia ISS/TFLF',
-    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EXTRATOEMPRESA`,
+    text: "Portal de Parcelamento e Negociação",
+    href: `${process.env.NEXT_PUBLIC_BASE_URL}/portal-web/paginas/inicial/`
   },
   {
-    text: 'Emitir Guia ISS/TFLF Autonômo',
-    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EXTRATOEMPRESA`,
+    text: "Emitir Guia ISS/TFLF",
+    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EXTRATOEMPRESA`
   },
   {
-    text: 'Nota Fiscal de Serviços',
-    href: `${process.env.NEXT_PUBLIC_BASE_URL}/notafiscal/paginas/portal`,
+    text: "Emitir Guia ISS/TFLF Autonômo",
+    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EXTRATOEMPRESA`
   },
   {
-    text: 'Nota Fiscal de Serviços Avulsa',
-    href: `${process.env.NEXT_PUBLIC_BASE_URL}/notafiscal/paginas/portal-avulsa`,
+    text: "Nota Fiscal de Serviços",
+    href: `${process.env.NEXT_PUBLIC_BASE_URL}/notafiscal/paginas/portal`
   },
   {
-    text: 'Certidão Financeira Pessoa',
-    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EMITIRCERTIDAOFINANCEIRAPES`,
+    text: "Nota Fiscal de Serviços Avulsa",
+    href: `${process.env.NEXT_PUBLIC_BASE_URL}/notafiscal/paginas/portal-avulsa`
   },
   {
-    text: 'Reemitir Certidão SIAT',
-    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=REEMITIRCERTIDAO`,
+    text: "Certidão Financeira Pessoa",
+    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EMITIRCERTIDAOFINANCEIRAPES`
   },
   {
-    text: 'Validar Certidão SIAT',
-    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=VALIDARCERTIDAO`,
+    text: "Reemitir Certidão SIAT",
+    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=REEMITIRCERTIDAO`
   },
   {
-    text: 'Certidão de Baixa',
-    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=CERTIDAOBAIXAINSCRICAOMUNICIPAL`,
+    text: "Validar Certidão SIAT",
+    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=VALIDARCERTIDAO`
   },
   {
-    text: 'Portal de Parcelamento e Negociação',
-    href: `${process.env.NEXT_PUBLIC_BASE_URL}/portal-web/paginas/inicial/`,
+    text: "Certidão de Baixa",
+    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=CERTIDAOBAIXAINSCRICAOMUNICIPAL`
   },
   {
-    text: 'DESIF',
-    href: `${process.env.NEXT_PUBLIC_BASE_URL}/desif-web/paginas/portal/index.html`,
+    text: "Portal de Parcelamento e Negociação",
+    href: `${process.env.NEXT_PUBLIC_BASE_URL}/portal-web/paginas/inicial/`
   },
   {
-    text: 'Domicílio Tributário Eletrônico  ',
-    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dte/paginas/portal`,
+    text: "DESIF",
+    href: `${process.env.NEXT_PUBLIC_BASE_URL}/desif-web/paginas/portal/index.html`
   },
   {
-    text: 'Certidão Financeira Pessoa',
-    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EMITIRCERTIDAOFINANCEIRAPES`,
+    text: "Domicílio Tributário Eletrônico  ",
+    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dte/paginas/portal`
   },
   {
-    text: 'Emitir Guia IPTU/TCR-Taxa de Lixo',
-    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EXTRATOIMOVEL`,
+    text: "Certidão Financeira Pessoa",
+    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EMITIRCERTIDAOFINANCEIRAPES`
   },
   {
-    text: 'Emitir Memória de Cálculo do Imóvel',
-    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=IMOVEL`,
+    text: "Emitir Guia IPTU/TCR-Taxa de Lixo",
+    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EXTRATOIMOVEL`
   },
   {
-    text: 'Emitir Guia ITBI-e',
-    href: `${process.env.NEXT_PUBLIC_BASE_URL}/itbi/paginas/guiaitbi/emiteGuiaPortalList.jsf`,
+    text: "Emitir Memória de Cálculo do Imóvel",
+    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=IMOVEL`
   },
   {
-    text: 'Emitir Guia SIAT',
-    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EMITIRITBI`,
+    text: "Emitir Guia ITBI-e",
+    href: `${process.env.NEXT_PUBLIC_BASE_URL}/itbi/paginas/guiaitbi/emiteGuiaPortalList.jsf`
   },
   {
-    text: 'Sistema ITBI-e',
-    href: `${process.env.NEXT_PUBLIC_BASE_URL}/itbi/paginas/portal/index.html`,
+    text: "Emitir Guia SIAT",
+    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=EMITIRITBI`
   },
   {
-    text: 'Reemitir Certidão SIAT',
-    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=REEMITIRCERTIDAO`,
+    text: "Sistema ITBI-e",
+    href: `${process.env.NEXT_PUBLIC_BASE_URL}/itbi/paginas/portal/index.html`
   },
   {
-    text: 'Validar Certidão SIAT',
-    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=VALIDARCERTIDAO`,
+    text: "Reemitir Certidão SIAT",
+    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=REEMITIRCERTIDAO`
   },
   {
-    text: 'Portal de Parcelamento e Negociação',
-    href: `${process.env.NEXT_PUBLIC_BASE_URL}/portal-web/paginas/inicial/`,
+    text: "Validar Certidão SIAT",
+    href: `${process.env.NEXT_PUBLIC_BASE_URL}/dsf_jpa_portal/inicial.do?evento=montaMenu&acronym=VALIDARCERTIDAO`
   },
   {
-    text: 'Cadastro como Tomador da Nota',
-    href: `${process.env.NEXT_PUBLIC_BASE_URL}/notafiscal/paginas/portal`,
+    text: "Portal de Parcelamento e Negociação",
+    href: `${process.env.NEXT_PUBLIC_BASE_URL}/portal-web/paginas/inicial/`
   },
   {
-    text: 'Impressão e Autenticidade de Notas Fiscais Avulsas até 31/05/2025',
-    href: 'https://www.joaopessoa.pb.gov.br/pc',
+    text: "Cadastro como Tomador da Nota",
+    href: `${process.env.NEXT_PUBLIC_BASE_URL}/notafiscal/paginas/portal`
   },
   {
-    text: 'Impressão e Autenticidade de ITBIs até 31/05/2025 ',
-    href: 'https://www.joaopessoa.pb.gov.br/pc/',
+    text: "Impressão e Autenticidade de Notas Fiscais Avulsas até 31/05/2025",
+    href: "https://www.joaopessoa.pb.gov.br/pc"
   },
-]
+  {
+    text: "Impressão e Autenticidade de ITBIs até 31/05/2025 ",
+    href: "https://www.joaopessoa.pb.gov.br/pc/"
+  }
+];
 
 const uniqueServices = Array.from(
-  new Map(allServices.map((service) => [service.text, service])).values(),
-)
+  new Map(allServices.map((service) => [service.text, service])).values()
+);
 
-new Map(allServices.map((service) => [service.text, service])).values()
+new Map(allServices.map((service) => [service.text, service])).values();
 
-export const filteredServices = uniqueServices
+export const filteredServices = uniqueServices;
